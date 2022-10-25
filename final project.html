@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌙✨Sailor Moon ✨🌙</title>
+</head>
+<style>
+    body {
+        background-image: url(https://i.pinimg.com/564x/50/e0/42/50e042579d9fcb7279fc665b51b1e9c0.jpg);
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-attachment: fixed;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+
+    }
+
+    img.sailormoon-logo {
+        width: 500px;
+        height: 200px;
+
+
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 200;
+        color: #F5A7BD;
+        font-family: fantasy;
+    }
+
+
+
+    .intro-back-color {
+        margin: 25px 0 0;
+        padding: 20px 0 20px;
+        border-radius: 20px;
+        text-align: center;
+        background-color: rgb(244 222 230 / 70%);
+        box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+    }
+
+    img.image-main-sailorteam1 {
+        width: 200px;
+        height: 300px;
+        margin: 0 10px 10px;
+        border-radius: 10px;
+        float: left;
+
+    }
+
+    img.image-main-sailorteam1:hover {
+        content: url("https://i.pinimg.com/564x/5d/ae/25/5dae25fbaa918379003ec51bd9442e87.jpg");
+        width: 200px;
+        height: 300px;
+        transition: all 250ms ease-in-out;
+    }
+
+    .introduction-info {
+        display: block;
+        line-height: 1.8;
+        padding: 0 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #c1748f;
+    }
+
+    .usagi-intro,
+    .ami-intro,
+    .rei-intro,
+    .makoto-intro,
+    .minako-intro,
+    .sailormovie {
+        margin: 25px 0 0;
+        border-radius: 20px;
+        text-align: center;
+        background-color: rgb(244 222 230 / 70%);
+        box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+        display: block;
+        line-height: 1.8;
+        padding: 0 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #c1748f;
+    }
+
+
+
+    img.character-usagi,
+    img.character-rei,
+    img.character-minako {
+        float: left;
+        background-color: rgb(254 129 178 / 70%);
+        box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+        width: 250px;
+        height: 200px;
+        margin: 10px 10px 10px;
+        border-radius: 10px;
+    }
+
+    img.character-ami,
+    img.character-makoto {
+        float: right;
+        background-color: rgb(254 129 178 / 70%);
+        box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+        width: 250px;
+        height: 200px;
+        margin: 10px 10px 10px;
+        border-radius: 10px;
+    }
+
+    .h3usagi {
+        font-size: 20px;
+        color: #f581b2;
+        font-weight: bold;
+    }
+
+    .h3usagi:hover::after {
+        content: ": Sailor Moon🌙"
+    }
+
+    .h3ami {
+        font-size: 20px;
+        color: #B1CDF4;
+        font-weight: bold;
+    }
+
+    .h3ami:hover::after {
+        content: ": Sailor Mercury 🌊"
+    }
+
+    .h3rei {
+        font-size: 20px;
+        color: #DA554C;
+        font-weight: bold;
+    }
+
+    .h3rei:hover::after {
+        content: ": Sailor Mars 🔥"
+    }
+
+    .h3makoto {
+        font-size: 20px;
+        color: #46D27B;
+        font-weight: bold;
+    }
+
+    .h3makoto:hover::after {
+        content: ": Sailor Jupiter 🌩️"
+    }
+
+    .h3minako {
+        font-size: 20px;
+        color: #f3e456;
+        font-weight: bold;
+    }
+
+    .h3minako:hover::after {
+        content: ": Sailor Venus 💛"
+    }
+
+
+    a {
+        text-decoration: none;
+        color: #f56c93f3;
+        text-align: center;
+    }
+
+    .sailormoon-anime {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: left;
+        width: 900px;
+        margin: 10px auto 10px;
+    }
+
+    .anime {
+        margin: 40px;
+        max-width: 250px;
+        text-decoration: none;
+        transition: 200ms ease-in-out;
+        border-radius: 5px;
+        background-color: rgb(254 129 178 / 70%);
+        box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+        margin: 10px 10px 10px;
+        border-radius: 10px;
+    }
+
+    .anime:hover {
+        transform: scale(1.10);
+        box-shadow: 10px 5px 70px rgba(240, 124, 176, 0.3);
+
+    }
+
+
+    button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #f1217bb6;
+        background: #F5A7BD;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: white;
+        color: #be5784;
+        border: 1px solid #F5A7BD;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 10px;
+        font-weight: 100;
+        color: #F5A7BD;
+        font-family: Arial, Helvetica, sans-serif
+    }
+</style>
+
+
+<body>
+
+    <h1>
+        <img class="sailormoon-logo"
+            src="https://www.pikpng.com/pngl/b/58-584572_vaporwave-clipart-kanji-sailor-moon-logo-png-transparent.png">
+        <br />
+        <em>✨Pretty Soldier Sailor Moon ✨🌙</em>
+    </h1>
+    <div class="container">
+        <div class="intro-back-color">
+            <img class="image-main-sailorteam1"
+                src="https://64.media.tumblr.com/c86b9d33478409c243f903ac713ea7bb/tumblr_px2ejbrnGK1wqrihgo1_r1_1280.jpg">
+            <span class="introduction-info">
+                "In the name of the Moon, <strong> I'll punish you!</strong>"
+                <br />
+                Pretty Soldier Sailor Moon (美少女戦士セーラームーン), or simply Sailor Moon, it's a very nostalgic manga/anime for
+                many of us!
+                Launched first as a manga in 1991, created by Naoko Takeuchi, and broadcasted as an anime in 1992, it
+                follows the adventures of a girl, <em> Usagi Tsukino </em>, when she encounters a black cat, Luna, who
+                gives her a magical brooch. This magical brooch allows her to transform into Sailor Moon, a soldier
+                destined to save Earth from the forces of evil.
+                <br />
+                During her adventures, she will assemble a team of other Sailor Guardians : Sailor Mercury, Sailor
+                Venus, Sailor Mars, Sailor Jupiter. Occasionally, a mysterious man called Tuxedo Mask will join them and
+                aid them in their battles.
+            </span>
+        </div>
+        <h2>The Characters</h2>
+
+        <div class="usagi-intro">
+
+            <img class="character-usagi"
+                src="https://i.pinimg.com/originals/12/11/ca/1211ca3bd358099b034ebf0f9b43d424.gif">
+            <br />
+            <span class="h3usagi">Usagi Tsukino</span>
+            <br />
+            Usagi Tsukino (月野 うさぎ ) is the main protagonist of the series. Usagi is a careless fourteen-year-old girl
+            with an enormous capacity
+            for love,
+            compassion, and understanding. Usagi transforms into the heroine called Sailor Moon, the Guardian of Love
+            and Justice.
+            At the beginning of the series, she is a self-described immature crybaby who resents fighting evil and wants
+            nothing
+            more than to be a normal girl. As the story progresses, however, she embraces the chance to use her power to
+            protect
+            those she cares about.
+            <br />
+
+        </div>
+        <div class="ami-intro">
+
+            <img class="character-ami"
+                src="https://i.pinimg.com/originals/9d/7e/c9/9d7ec9997f85e284128ab73a43613354.gif">
+            <br />
+            <span class="h3ami">Ami Mizuno</span>
+            <br />
+            Ami Mizuno (水野 亜美 ) is a quiet but intelligent
+            fourteen-year-old bookworm in Usagi's class with a rumored IQ of 300. She can transform into
+            Sailor Mercury,
+            the Guardian of Water and Wisdom. Ami's shy exterior masks a passion for learning and taking care of the
+            people around
+            her. She hopes to eventually become a doctor like her mother, and tends to be the practical one in the
+            group. She is
+            secretly a fan of pop culture and romance novels, and becomes embarrassed whenever this is pointed out. Ami
+            also uses
+            her handheld computer, which is capable of scanning and detecting virtually anything about which she
+            requires
+            information.
+            <br />
+        </div>
+        <div class="rei-intro">
+
+            <img class="character-rei"
+                src="https://i.pinimg.com/originals/fc/81/06/fc810689ec5a522beb2c545ec8c66970.gif">
+            <br />
+            <span class="h3rei">Rei Hino</span>
+            <br />
+            Rei Hino (火野 レイ) is an elegant fourteen-year-old miko (a shrine maiden). Because of her work as a Shinto
+            priestess, Rei has limited precognition and can dispel or
+            nullify evil
+            using special ofuda scrolls, even in her civilian form. She transforms into Sailor Mars, the Guardian of
+            Fire and Passion. She is very serious and focused, and easily becomes annoyed by Usagi's laziness, although
+            she cares
+            about her very much. In the anime adaptation, Rei is portrayed as boy-crazy and short-tempered, while in
+            the manga and live-action series she is depicted as uninterested in romance and more self-controlled. She
+            attends a private Catholic school separate from the other girls.
+            <br />
+
+        </div>
+        <div class="makoto-intro">
+
+            <img class="character-makoto"
+                src="https://i.pinimg.com/originals/c6/81/c8/c681c832108f6a8dd4c1289614521147.gif">
+            <br />
+            <span class="h3makoto">Makoto Kino</span>
+            <br />
+            Makoto Kino (木野 まこと) is a fourteen-year-old girl
+            who is a
+            student in Usagi Tsukino's class and was rumoured to have been expelled from her previous school for
+            fighting. Unusually
+            tall and strong for a Japanese schoolgirl, she transforms into Sailor Jupiter, the Guardian of Thunder and
+            Courage. Both of Makoto's parents died in a plane crash years ago, so she lives alone and takes care of
+            herself. She cultivates her physical strength and domestic interests, including housekeeping,
+            cooking, and gardening. Makoto excels at hand-to-hand combat. Her dream is to marry a young handsome man and
+            to own a
+            flower-and-cake shop.
+            <br />
+
+        </div>
+        <div class="minako-intro">
+
+            <img class="character-minako"
+                src="https://i.pinimg.com/originals/29/8f/8a/298f8a2f4ee42bcbe3fbd551fcd29c27.gif">
+            <br />
+            <span class="h3minako">Minako Aino</span>
+            <br />
+            Minako Aino (愛野 美奈子) is a fourteen-year-old perky
+            dreamer.
+            Minako first appears as the main protagonist of Codename: Sailor V. She has a companion cat called
+            Artemis who works alongside Luna in guiding the Sailor Guardians. Minako transforms into Sailor Venus, the
+            Guardian of
+            Love and Beauty, and leads Sailor Moon's four inner Guardians, while acting as Sailor Moon's bodyguard and
+            decoy because
+            of their near-identical looks. She dreams of becoming a famous singer and idol, and attends auditions
+            whenever she can.
+            <br />
+        </div>
+        <h2>Sailor Moon in Anime</h2>
+        <div id="sailormoonanime-grid" class="sailormoon-anime">
+            <a href="https://myanimelist.net/anime/530/Bishoujo_Senshi_Sailor_Moon"><img
+                    src="https://cdn.myanimelist.net/images/anime/1440/92258l.jpg?_gl=1*vro0q3*_ga*MTc3NjE3MDcyMS4xNjMyMTM5NDU2*_ga_26FEP9527K*MTY1NjIwMDc0Ni45LjAuMTY1NjIwMDc0Ni42MA.."
+                    class="anime" width="300">
+                <p>Bishoujo Senshi Sailor Moon <br />(1992-1993)</p>
+            </a>
+            <a href="https://myanimelist.net/anime/740/Bishoujo_Senshi_Sailor_Moon_R"><img
+                    src=https://cdn.myanimelist.net/images/anime/1800/106119l.jpg?_gl=1*1284jy5*_ga*MTc3NjE3MDcyMS4xNjMyMTM5NDU2*_ga_26FEP9527K*MTY1NjIwMDc0Ni45LjEuMTY1NjIwMTU1My4yNw.."
+                    class="anime" width="300">
+                <p>Bishoujo Senshi Sailor Moon R <br />(1993-1994)</p>
+            </a>
+
+            <a href="https://myanimelist.net/anime/532/Bishoujo_Senshi_Sailor_Moon_S"><img
+                    src=https://cdn.myanimelist.net/images/anime/13/18854l.jpg?_gl=1*126izmp*_ga*MTc3NjE3MDcyMS4xNjMyMTM5NDU2*_ga_26FEP9527K*MTY1NjIwMDc0Ni45LjEuMTY1NjIwMjA1MS40Mw.."
+                    class="anime" width="300">
+                <p>Bishoujo Senshi Sailor Moon S <br />(1994-1995)</p>
+            </a>
+            <a href=https://myanimelist.net/anime/1239/Bishoujo_Senshi_Sailor_Moon_SuperS"><img
+                    src=https://cdn.myanimelist.net/images/anime/1460/95192l.jpg?_gl=1*gmmoyd*_ga*MTc3NjE3MDcyMS4xNjMyMTM5NDU2*_ga_26FEP9527K*MTY1NjIwMDc0Ni45LjEuMTY1NjIwMjI1Ny4zMw.."
+                    class="anime" width="300">
+                <p>Bishoujo Senshi Sailor Moon SuperS <br />(1995-1996)</p>
+            </a>
+            <a href=https://myanimelist.net/anime/996/Bishoujo_Senshi_Sailor_Moon__Sailor_Stars"><img
+                    src=https://cdn.myanimelist.net/images/anime/1804/105993l.jpg?_gl=1*69lprz*_ga*MTc3NjE3MDcyMS4xNjMyMTM5NDU2*_ga_26FEP9527K*MTY1NjIwMDc0Ni45LjEuMTY1NjIwMjM1Mi44"
+                    class="anime" width="300">
+                <p>Bishoujo Senshi Sailor Moon Sailor Stars <br />(1996-1997)</p>
+            </a>
+            <a href=https://myanimelist.net/anime/14751/Bishoujo_Senshi_Sailor_Moon_Crystal"><img
+                    src=https://cdn.myanimelist.net/images/anime/11/60085l.jpg?_gl=1*10mcw6g*_ga*MTc3NjE3MDcyMS4xNjMyMTM5NDU2*_ga_26FEP9527K*MTY1NjIwMDc0Ni45LjEuMTY1NjIwMjUxNy4yOA.."
+                    class="anime" width="300">
+                <p>Bishoujo Senshi Sailor Moon Crystal <br />(2014-2015)</p>
+            </a>
+        </div>
+        <hr />
+        <div>
+
+            <p class="sailormovie"> You can watch the most recent Sailor Moon movie on Netflix!</p>
+
+            <button> Watch Sailor Moon Eternals🌙 </button>
+            <script>
+                function sailorWatch() {
+
+                    let firstName = prompt("What's your first name?")
+                    let watchSailor = prompt("Have you ever watched Sailor Moon?")
+
+                    if (watchSailor === "Yes") {
+                        alert = "Welcome back, Sailor" + firstName + "!"
+                    }
+                    if (watchSailor === "No") {
+                        alert = "Hope you'll join us soon in the Sailor Scouts" + firstName + "!"
+                    }
+                }
+
+                let sailorWatchButton = document.querySelector("button");
+                sailorWatchButton.addEventListener("click", sailorWatch)
+
+
+            </script>
+
+            <p class="footer">
+                This page was built by the moonlight, by Sofia Marques 🌙
+                </a>
+            </p>
+
+
+
+
+
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
