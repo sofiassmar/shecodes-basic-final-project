@@ -1,0 +1,212 @@
+body {
+  background-image: url(https://i.pinimg.com/564x/50/e0/42/50e042579d9fcb7279fc665b51b1e9c0.jpg);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+img.sailormoon-logo {
+  width: 500px;
+  height: 200px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 200;
+  color: #f5a7bd;
+  font-family: fantasy;
+}
+
+.intro-back-color {
+  margin: 25px 0 0;
+  padding: 20px 0 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(244 222 230 / 70%);
+  box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+}
+
+img.image-main-sailorteam1 {
+  width: 200px;
+  height: 300px;
+  margin: 0 10px 10px;
+  border-radius: 10px;
+  float: left;
+}
+
+img.image-main-sailorteam1:hover {
+  content: url("https://i.pinimg.com/564x/5d/ae/25/5dae25fbaa918379003ec51bd9442e87.jpg");
+  width: 200px;
+  height: 300px;
+  transition: all 250ms ease-in-out;
+}
+
+.introduction-info {
+  display: block;
+  line-height: 1.8;
+  padding: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #c1748f;
+}
+
+.usagi-intro,
+.ami-intro,
+.rei-intro,
+.makoto-intro,
+.minako-intro,
+.sailormovie {
+  margin: 25px 0 0;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(244 222 230 / 70%);
+  box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+  display: block;
+  line-height: 1.8;
+  padding: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #c1748f;
+}
+
+img.character-usagi,
+img.character-rei,
+img.character-minako {
+  float: left;
+  background-color: rgb(254 129 178 / 70%);
+  box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+  width: 250px;
+  height: 200px;
+  margin: 10px 10px 10px;
+  border-radius: 10px;
+}
+
+img.character-ami,
+img.character-makoto {
+  float: right;
+  background-color: rgb(254 129 178 / 70%);
+  box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+  width: 250px;
+  height: 200px;
+  margin: 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.h3usagi {
+  font-size: 20px;
+  color: #f581b2;
+  font-weight: bold;
+}
+
+.h3usagi:hover::after {
+  content: ": Sailor Moon🌙";
+}
+
+.h3ami {
+  font-size: 20px;
+  color: #b1cdf4;
+  font-weight: bold;
+}
+
+.h3ami:hover::after {
+  content: ": Sailor Mercury 🌊";
+}
+
+.h3rei {
+  font-size: 20px;
+  color: #da554c;
+  font-weight: bold;
+}
+
+.h3rei:hover::after {
+  content: ": Sailor Mars 🔥";
+}
+
+.h3makoto {
+  font-size: 20px;
+  color: #46d27b;
+  font-weight: bold;
+}
+
+.h3makoto:hover::after {
+  content: ": Sailor Jupiter 🌩️";
+}
+
+.h3minako {
+  font-size: 20px;
+  color: #f3e456;
+  font-weight: bold;
+}
+
+.h3minako:hover::after {
+  content: ": Sailor Venus 💛";
+}
+
+a {
+  text-decoration: none;
+  color: #f56c93f3;
+  text-align: center;
+}
+
+.sailormoon-anime {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  width: 900px;
+  margin: 10px auto 10px;
+}
+
+.anime {
+  margin: 40px;
+  max-width: 250px;
+  text-decoration: none;
+  transition: 200ms ease-in-out;
+  border-radius: 5px;
+  background-color: rgb(254 129 178 / 70%);
+  box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+  margin: 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.anime:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 5px 70px rgba(240, 124, 176, 0.3);
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #f1217bb6;
+  background: #f5a7bd;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 16px 24px;
+  border-radius: 30px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: #be5784;
+  border: 1px solid #f5a7bd;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 100;
+  color: #f5a7bd;
+  font-family: Arial, Helvetica, sans-serif;
+}
